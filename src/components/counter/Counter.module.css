@@ -1,6 +1,6 @@
 .counter {
   border: 1px solid black;
-  max-width: 750px;
+  max-width: 100%;
   height: 250px;
   margin: auto;
 }

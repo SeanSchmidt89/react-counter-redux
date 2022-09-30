@@ -1,9 +1,16 @@
 .input {
-    text-align: center;
+  text-align: center;
 }
-
 
 input:focus {
-    outline: none;
+  outline: none;
 }
 
+.inputContainer {
+  padding: 10px;
+}
+
+.nan {
+  color: red;
+  font-size: 0.9rem;
+}
