@@ -6,8 +6,12 @@ const Display = () => {
   const counter = useSelector((state) => state.counter);
   return (
     <div className={styles.counter}>
-      
-      {counter}
+      <div className={styles.container}>
+        <div className={styles.title}>
+          <p>- Count -</p>
+        </div>
+        <div className={styles.count}>{counter}</div>
+      </div>
     </div>
   );
 };

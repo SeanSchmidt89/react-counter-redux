@@ -35,7 +35,7 @@ const Input = () => {
             value={input}
             placeholder="type a number"
           />
-          <button type="submit">Submit</button>
+          <button type="submit" className={styles.btn}>Submit</button>
         </form>
         {nan && <p className={styles.nan}>Please Enter a number.</p>}
       </div>

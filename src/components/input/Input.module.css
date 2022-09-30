@@ -1,5 +1,12 @@
 .input {
   text-align: center;
+  height: 100px;
+  width: 100%;
+}
+
+input {
+  border: 2px solid white;
+  border-radius: 4px;
 }
 
 input:focus {
@@ -12,5 +19,20 @@ input:focus {
 
 .nan {
   color: red;
-  font-size: 0.9rem;
+  font-size: 1rem;
+}
+
+.inputContainer .btn {
+  background-color: rgba(37, 122, 249, 0.985);
+  width: 55px;
+  height: 20px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+}
+
+.inputContainer .btn:hover {
+  background-color: rgba(37, 122, 249, 0.8);
+  color: white;
+  cursor: pointer;
 }

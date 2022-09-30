@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Display />
       <Counter />
       <Input />
-      <Display />
     </div>
   );
 }
