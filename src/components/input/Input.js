@@ -33,7 +33,7 @@ const Input = () => {
           <input
             onChange={inputHandler}
             value={input}
-            placeholder="type a number"
+            placeholder="type in a number"
           />
           <button type="submit" className={styles.btn}>Submit</button>
         </form>
