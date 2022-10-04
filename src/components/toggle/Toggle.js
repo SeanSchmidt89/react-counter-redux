@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./Toggle.module.css";
 import { useDispatch } from "react-redux";
 import { CounterSliceActions } from "../../store/CounterSlice";
 import { useSelector } from "react-redux";
+import styles from "./Toggle.module.css";
 
 const Toggle = () => {
   const dispatch = useDispatch();
@@ -22,6 +22,13 @@ const Toggle = () => {
         <button onClick={toggleHandler}>Open</button>
       )}
       {toggle && <button onClick={zeroHandler}>Zero</button>}
+      <div>
+        <button className={styles.codebtn}>
+          <a href="https://github.com/SeanSchmidt89/react-counter-redux">
+            View my Code
+          </a>
+        </button>
+      </div>
     </div>
   );
 };

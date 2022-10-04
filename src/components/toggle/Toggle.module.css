@@ -2,6 +2,7 @@
   width: 100%;
   height: 50px;
   text-align: center;
+  margin-top: 15px;
 }
 
 .toggle button {
@@ -18,4 +19,29 @@
   background-color: rgba(37, 122, 249, 0.8);
   color: white;
   cursor: pointer;
+}
+
+
+.toggle div .codebtn {
+  margin: 15px;
+  background-color: rgba(37, 122, 249, 0.985);
+  width: 100px;
+  height: 20px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+}
+
+.toggle div .codebtn:hover {
+  background-color: rgba(37, 122, 249, 0.8);
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: white;
 }
